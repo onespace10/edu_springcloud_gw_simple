@@ -19,7 +19,7 @@ spring:
     gateway:
       routes:
         - id: nginx-service
-          uri: http://localhost:8080
+          uri: http://google.com
           predicates:
             - Path=/nginx/**
           filters:
