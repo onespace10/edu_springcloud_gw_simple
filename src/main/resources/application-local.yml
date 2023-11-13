@@ -25,7 +25,7 @@ spring:
           filters:
             - RewritePath=/(?<path>.*),/$\{path}
         - id: httpd-service
-          uri: http://localhost:8081
+          uri: http://daum.net
           predicates:
             - Path=/apache/**
           filters:
